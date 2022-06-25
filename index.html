@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="h1_id">hi welcome ...choose your fruit!!!</h1>
+
+    <button onclick="btn_chery()">chery</button>
+    <button onclick="btn_orange()">orange</button>
+    <button onclick="btn_pineaple()">pineaple</button>
+    <button onclick="btn_strawberrie()">strawberrie</button>
+
+    <img id="img_id" src="" height="400">
+
+
+    <script>
+        function btn_chery(){
+            document.querySelector("#img_id").src = "image/chery.png" 
+            document.querySelector("#h1_id").style.color = "purple"
+            document.querySelector("body").style.background = "black" 
+        }
+
+        function btn_orange(){
+            document.querySelector("#img_id").src = "image/orange.png" 
+            document.querySelector("#h1_id").style.color = "orange"
+            document.querySelector("body").style.background = "black" 
+        }
+
+        function btn_pineaple(){
+            document.querySelector("#img_id").src = "image/pineaple.png" 
+            document.querySelector("#h1_id").style.color = "yellow"
+            document.querySelector("body").style.background = "black" 
+        }
+
+        function btn_strawberrie(){
+            document.querySelector("#img_id").src = "image/strawberrie.png" 
+            document.querySelector("#h1_id").style.color = "red"
+            document.querySelector("body").style.background = "black" 
+        }
+        
+       
+    </script>
+</body>
+</html>
